@@ -1,0 +1,52 @@
+.sContainer {
+    background-image: url(./img/siginin.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 120vh;
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 4rem;
+}
+
+.I {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.id,.pw{
+    margin-top: 1rem;
+    width: 150%;
+    height: 3rem;
+}
+
+
+.e,.g{
+    padding: 1rem;
+    margin:1rem;
+    border-style: none;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 5%;
+}
+
+.label {
+    color: white;
+}

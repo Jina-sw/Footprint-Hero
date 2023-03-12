@@ -61,19 +61,22 @@
 .signin {
     margin: 2rem;
     padding: 1em;
-    
+    text-decoration: none;
+
     border-radius: 5%;
-    
+    border-style: none;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.5em;
 }
 
 .signin:hover {
-    margin: 1rem;
+    margin: 2rem;
     padding: 1em;
     background-color: rgba(214, 227, 223, 0.792);
     border-radius: 5%;
-    
+    border-style: none;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.5em;
+    text-decoration: none;
+
 }
