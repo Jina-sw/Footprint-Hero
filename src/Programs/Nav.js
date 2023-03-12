@@ -9,7 +9,7 @@ function Nav(){
                 <div className="pLogo">
                     <div>Footprint Hero</div>
                 </div>
-                <button className="e p"><Link to='/'>Go to Main</Link></button>
+                <button className="e p"><Link to='/PrMain'>Back</Link></button>
 
             </div>
             

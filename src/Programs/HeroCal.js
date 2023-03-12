@@ -3,15 +3,15 @@ import { useState } from 'react';
 import './Program.css';
 import Nav from './Nav'
 
-function MyLog(){
+function HeroCal(){
     return(
         <div className="m">
             <Nav></Nav>
             <div className="pContainer">
-                <div className="pTagline">My Log</div> 
+                <div className="pTagline">Hero Calculator</div> 
             </div>
             <div className="tagline">
-               My Total Footprint score is... 
+               Fill in the blanks below 
             </div>
             <div className="scoreC">
                 <div className="score">
@@ -23,4 +23,4 @@ function MyLog(){
     )    
 }
 
-export default MyLog;
+export default HeroCal;
