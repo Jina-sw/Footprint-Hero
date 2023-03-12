@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    
     
 }
 
@@ -48,12 +48,14 @@
 .bgLine{
     margin-top: 2rem;
     padding-top: 4rem;
+    font-size: 4em;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2em;
    
     
 }
