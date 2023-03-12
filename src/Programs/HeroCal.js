@@ -16,7 +16,7 @@ function HeroCal(){
             <div className="tagline">
                How much did you generate carbon footprints?
             </div>
-            <div className="inputs">
+            <div className="inputs I">
                 <input type='text' placeholder="Electronic Bill" className="s"></input>
                 <input type='text' placeholder="Gas Bill" className="s"></input>
                 <input type='text' placeholder="Oil Bill" className="s"></input>
@@ -25,7 +25,7 @@ function HeroCal(){
             <div className="tagline">
                How much did you reduce carbon footprints?
             </div>
-            <div className="inputs">
+            <div className="inputs I">
                 <input type='text' placeholder="Recycle" className="s"></input>
                 <input type='text' placeholder="Bringing your cup/water bottle" className="s"></input>
                 <input type='text' placeholder="Public transport Utilization" className="s"></input>
