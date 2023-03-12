@@ -1,14 +1,14 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from rest_framework import generics
+from .serializers import RoomSerializer
+from .models import Room
 
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
 # Create your views here.
-def main(request):
-    return HttpResponse("Hello")
 
-#can also use post delete for endpoints 
-@api_view(['GET'])
-def getData(request):
-    person = {'name':'Denis', 'age':28}
-    return Response(person)
+#allows us to create a room and look at all the different types of rooms 
+class RoomView(generics.CreateAPIView):
+    #returns all of the room objects 
+    queryset = Room.objects.all()
+    serializer_class = RoomSerializer
+
+
