@@ -1,12 +1,12 @@
 from django.shortcuts import render
 from rest_framework import generics
-from .serializers import RoomSerializer
+#from .serializers import RoomSerializer
 from .models import Student
 
 from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_except 
+from django.views.decorators.csrf import csrf_exempt 
 
-#@csrf_exempt
+@csrf_exempt
 def create_student(request):
     if request.method == 'POST':
         name = request.POST.get('name')
