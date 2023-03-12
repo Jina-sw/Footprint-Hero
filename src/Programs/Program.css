@@ -54,3 +54,20 @@
     
 
 }
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    height: 5rem;
+}
+
+.s{
+    margin: 1rem;
+}
+
+.bb{
+    margin: 10rem;
+}
