@@ -15,7 +15,7 @@ function SignUp() {
                     <input className="pw" type='text' placeholder="Password Confirmation"></input>
                 </div>
                 <div className='b'>
-                    <button className="e">Enter</button>
+                    <button className="e"><Link to='/Singin'>Enter</Link></button>
                     
                 </div>
             </div>
