@@ -1,0 +1,56 @@
+.pContainer {
+    background-image: url(../img/flower.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 120vh;
+}
+
+.pLogo{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    background-color:rgba(96, 148, 131, 0.734);
+    height: 0.5rem;
+    padding: 0.5rem;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.p{
+    width: fit-content;
+    position: absolute;
+    right: 10px
+}
+
+.n{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.pTagline{
+    font-size: 15rem;
+    color: white;
+}
+
+.scoreC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.score{
+    color:rgb(7, 56, 21);
+    font-size: 18rem;
+    
+    
+
+}
