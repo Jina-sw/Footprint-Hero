@@ -1,3 +1,5 @@
+#script that will help us manage database, create tables from models, handle migration and etc
+
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
