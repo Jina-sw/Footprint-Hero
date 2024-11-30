@@ -18,4 +18,4 @@ React, Django
 We are a group of 3 girls, and this hackathon was the first ever hackathon they ever participated in for my 2 team members. We succeeded in creating an app and didn't give up until the end goal despite some difficulties, so now we have something in our hands!
 
 ## Challenges our team ran into
-We tried to use two different not too compatible stacks - React and Django. The reason why we wanted to combine two as our tech stack is 
+We tried to use two different not too compatible stacks - React and Django. The reason why we wanted to combine two as our tech stack is Liz didn't have web development experience but python in data manipulation in her bioinformatics studies and I know how to build things in React. However, even though we tried hard and took a long time to figure this out, we couldn't find a solution for it, we decided to keep two separate programs we created in each of our specialties. Was a fun experience!
